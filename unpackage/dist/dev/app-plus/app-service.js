@@ -38,15 +38,6 @@ if (uni.restoreGlobal) {
       console[type].apply(console, [...args, filename]);
     }
   }
-  const { registerUTSInterface, initUTSProxyClass, initUTSProxyFunction, initUTSPackageName, initUTSIndexClassName, initUTSClassName } = uni;
-  const name = "utsApi";
-  const moduleName = "ts-demo";
-  const moduleType = "";
-  const errMsg = ``;
-  const is_uni_modules = true;
-  const pkg = /* @__PURE__ */ initUTSPackageName(name, is_uni_modules);
-  const cls = /* @__PURE__ */ initUTSIndexClassName(name, is_uni_modules);
-  const myApi = /* @__PURE__ */ initUTSProxyFunction(false, { moduleName, moduleType, errMsg, main: true, package: pkg, class: cls, name: "myApiByJs", keepAlive: false, params: [{ "name": "options", "type": "UTSSDKModulesUtsApiMyApiOptionsJSONObject" }], return: "" });
   const _export_sfc = (sfc, props) => {
     const target = sfc.__vccOpts || sfc;
     for (const [key, val] of props) {
@@ -54,35 +45,6 @@ if (uni.restoreGlobal) {
     }
     return target;
   };
-  const _sfc_main$1 = {
-    methods: {
-      openHelloPage() {
-        myApi({
-          paramA: true,
-          success: (res) => {
-            formatAppLog("log", "at pages/index/index.vue:16", "新页面打开成功", res);
-          },
-          fail: (err) => {
-            uni.showToast({
-              title: "插件未安装或未编译",
-              icon: "none"
-            });
-            formatAppLog("error", "at pages/index/index.vue:24", "打开失败", err);
-          }
-        });
-      }
-    }
-  };
-  function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", { class: "content" }, [
-      vue.createElementVNode("button", {
-        onClick: _cache[0] || (_cache[0] = (...args) => $options.openHelloPage && $options.openHelloPage(...args)),
-        class: "main-btn"
-      }, "打开新页面")
-    ]);
-  }
-  const PagesIndexIndex = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render], ["__file", "/Users/tiger/Documents/HBuilderProjects/demo/pages/index/index.vue"]]);
-  __definePage("pages/index/index", PagesIndexIndex);
   const _sfc_main = {
     onLaunch: function() {
       formatAppLog("log", "at App.vue:4", "App Launch");

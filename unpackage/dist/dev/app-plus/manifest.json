@@ -36,7 +36,10 @@
     "launchwebview": {
       "render": "always",
       "id": "1",
-      "kernel": "WKWebview"
+      "kernel": "WKWebview",
+      "uniNView": {
+        "path": "pages/index/index.js"
+      }
     },
     "usingComponents": true,
     "nvueStyleCompiler": "uni-app",
@@ -104,6 +107,5 @@
     "uniStatistics": {
       "enable": false
     }
-  },
-  "launch_path": "__uniappview.html"
+  }
 }

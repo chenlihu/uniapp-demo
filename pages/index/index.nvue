@@ -1,5 +1,6 @@
 <template>
   <view class="content">
+	<tusen-t-view buttontext="点击按钮内容" @buttonclick="onButtonClick" style="width:375px;height: 60px;background-color: aqua;"></tusen-t-view>
     <button @click="openHelloPage" class="main-btn">打开新页面</button>
   </view>
 </template>
