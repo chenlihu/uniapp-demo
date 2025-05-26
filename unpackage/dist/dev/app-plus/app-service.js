@@ -46,8 +46,7 @@ if (uni.restoreGlobal) {
   const is_uni_modules = true;
   const pkg = /* @__PURE__ */ initUTSPackageName(name, is_uni_modules);
   const cls = /* @__PURE__ */ initUTSIndexClassName(name, is_uni_modules);
-  const myApiSync = /* @__PURE__ */ initUTSProxyFunction(false, { moduleName, moduleType, errMsg, main: true, package: pkg, class: cls, name: "myApiSyncByJs", keepAlive: false, params: [{ "name": "paramA", "type": "boolean" }], return: "" });
-  const _imports_0 = "/static/logo.png";
+  const myApi = /* @__PURE__ */ initUTSProxyFunction(false, { moduleName, moduleType, errMsg, main: true, package: pkg, class: cls, name: "myApiByJs", keepAlive: false, params: [{ "name": "options", "type": "UTSSDKModulesUtsApiMyApiOptionsJSONObject" }], return: "" });
   const _export_sfc = (sfc, props) => {
     const target = sfc.__vccOpts || sfc;
     for (const [key, val] of props) {
@@ -56,37 +55,30 @@ if (uni.restoreGlobal) {
     return target;
   };
   const _sfc_main$1 = {
-    data() {
-      return {
-        title: "Hello"
-      };
-    },
-    onLoad() {
-    },
     methods: {
-      get() {
-        formatAppLog("log", "at pages/index/index.vue:24", myApiSync(true));
+      openHelloPage() {
+        myApi({
+          paramA: true,
+          success: (res) => {
+            formatAppLog("log", "at pages/index/index.vue:16", "新页面打开成功", res);
+          },
+          fail: (err) => {
+            uni.showToast({
+              title: "插件未安装或未编译",
+              icon: "none"
+            });
+            formatAppLog("error", "at pages/index/index.vue:24", "打开失败", err);
+          }
+        });
       }
     }
   };
   function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "content" }, [
-      vue.createElementVNode("image", {
-        class: "logo",
-        src: _imports_0
-      }),
-      vue.createElementVNode("view", { class: "text-area" }, [
-        vue.createElementVNode(
-          "text",
-          { class: "title" },
-          vue.toDisplayString($data.title),
-          1
-          /* TEXT */
-        ),
-        vue.createElementVNode("button", {
-          onClick: _cache[0] || (_cache[0] = (...args) => $options.get && $options.get(...args))
-        }, "get")
-      ])
+      vue.createElementVNode("button", {
+        onClick: _cache[0] || (_cache[0] = (...args) => $options.openHelloPage && $options.openHelloPage(...args)),
+        class: "main-btn"
+      }, "打开新页面")
     ]);
   }
   const PagesIndexIndex = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render], ["__file", "/Users/tiger/Documents/HBuilderProjects/demo/pages/index/index.vue"]]);

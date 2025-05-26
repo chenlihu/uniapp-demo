@@ -1,5 +1,8 @@
 @file:Suppress("UNCHECKED_CAST", "USELESS_CAST", "INAPPLICABLE_JVM_NAME", "UNUSED_ANONYMOUS_PARAMETER", "NAME_SHADOWING", "UNNECESSARY_NOT_NULL_ASSERTION")
 package uts.sdk.modules.utsApi
+import android.app.Activity
+import android.content.Intent
+import android.os.Bundle
 import io.dcloud.uniapp.*
 import io.dcloud.uniapp.extapi.*
 import io.dcloud.unicloud.*
@@ -39,8 +42,6 @@ interface MyApiFail : IUniError {
     override var errCode: MyApiErrorCode
 }
 typealias MyApi = (options: MyApiOptions) -> Unit
-typealias MyApiSync = (paramA: Boolean) -> MyApiResult
-val UniErrorSubject = "uts-api"
 val UTSApiUniErrors: Map<MyApiErrorCode, String> = Map(utsArrayOf(
     utsArrayOf(
         9010001,
@@ -51,31 +52,37 @@ val UTSApiUniErrors: Map<MyApiErrorCode, String> = Map(utsArrayOf(
         "custom error mseeage2"
     )
 ))
-open class MyApiFailImpl : UniError, MyApiFail, IUTSSourceMap {
+open class HelloActivity : Activity, IUTSSourceMap {
     override fun `__$getOriginalPosition`(): UTSSourceMapPosition? {
-        return UTSSourceMapPosition("MyApiFailImpl", "uni_modules/uts-api/utssdk/unierror.uts", 25, 14)
+        return UTSSourceMapPosition("HelloActivity", "uni_modules/uts-api/utssdk/app-android/index.uts", 11, 7)
     }
-    override var errCode: MyApiErrorCode
-    constructor(errCode: MyApiErrorCode) : super() {
-        this.errSubject = UniErrorSubject
-        this.errCode = errCode
-        this.errMsg = UTSApiUniErrors.get(errCode) ?: ""
+    constructor() : super() {}
+    override fun onCreate(savedInstanceState: Bundle?): Unit {
+        super.onCreate(savedInstanceState)
+    }
+}
+open class My : Runnable, IUTSSourceMap {
+    override fun `__$getOriginalPosition`(): UTSSourceMapPosition? {
+        return UTSSourceMapPosition("My", "uni_modules/uts-api/utssdk/app-android/index.uts", 34, 7)
+    }
+    override fun run() {
+        val activity = UTSAndroid.getUniActivity()
+        if (activity != null) {
+            try {
+                val intent = Intent(activity, HelloActivity().javaClass)
+                activity.startActivity(intent)
+            }
+             catch (e: Throwable) {
+                console.log("e", e, " at uni_modules/uts-api/utssdk/app-android/index.uts:48")
+            }
+        }
     }
 }
 val myApi: MyApi = fun(options: MyApiOptions) {
-    if (options.paramA == true) {
-        val res = MyApiResult(fieldA = 85, fieldB = true, fieldC = "some message")
-        options.success?.invoke(res)
-        options.complete?.invoke(res)
-    } else {
-        val err = MyApiFailImpl(9010001)
-        options.fail?.invoke(err)
-        options.complete?.invoke(err)
+    val activity = UTSAndroid.getUniActivity()
+    if (activity != null) {
+        activity.runOnUiThread(My())
     }
-}
-val myApiSync: MyApiSync = fun(paramA: Boolean): MyApiResult {
-    val res = MyApiResult(fieldA = 85, fieldB = paramA, fieldC = "some message")
-    return res
 }
 open class MyApiOptionsJSONObject : UTSJSONObject() {
     open var paramA: Boolean = false
@@ -94,7 +101,4 @@ fun myApiByJs(options: MyApiOptionsJSONObject): Unit {
         options.complete?.invoke(res)
     }
     ))
-}
-fun myApiSyncByJs(paramA: Boolean): MyApiResult {
-    return myApiSync(paramA)
 }
