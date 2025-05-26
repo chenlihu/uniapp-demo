@@ -63,7 +63,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         {
           buttontext: "点击按钮内容",
           onButtonclick: _cache[0] || (_cache[0] = (...args) => _ctx.onButtonClick && _ctx.onButtonClick(...args)),
-          style: { "width": "375px", "height": "60px", "background-color": "aqua" }
+          style: { "width": "375px", "height": "600px", "background-color": "#ccc" }
         },
         null,
         32

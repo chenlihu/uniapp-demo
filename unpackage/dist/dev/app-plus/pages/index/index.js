@@ -129,7 +129,7 @@ if (typeof uni !== 'undefined' && uni && uni.requireGlobal) {
           {
             buttontext: "\u70B9\u51FB\u6309\u94AE\u5185\u5BB9",
             onButtonclick: _cache[0] || (_cache[0] = (...args) => _ctx.onButtonClick && _ctx.onButtonClick(...args)),
-            style: { "width": "375px", "height": "60px", "background-color": "aqua" }
+            style: { "width": "375px", "height": "600px", "background-color": "#ccc" }
           },
           null,
           32

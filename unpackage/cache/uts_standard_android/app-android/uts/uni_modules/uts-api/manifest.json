@@ -5,7 +5,7 @@
   },
   "files": {
     "utssdk/app-android/index.uts": {
-      "md5": "9113edccacd35d642adb0246e7888966"
+      "md5": "8c9aa0ad3919c7f18f75813cc20987de"
     },
     "utssdk/interface.uts": {
       "md5": "54f9bc10b896e74b78756fb9944d445c"
@@ -18,6 +18,9 @@
     },
     "utssdk/app-android/AndroidManifest.xml": {
       "md5": "9f1f810dbb4ad64b3912b36e89f3c4f2"
+    },
+    "utssdk/app-android/HelloActivity.kt": {
+      "md5": "6b16f5c5c90880b637a46c658f865078"
     },
     "utssdk/app-android/config.json": {
       "md5": "ebaca22978749e13fc06e121817125a1"
