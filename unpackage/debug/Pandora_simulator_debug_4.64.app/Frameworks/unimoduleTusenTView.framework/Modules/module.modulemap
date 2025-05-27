@@ -1,0 +1,11 @@
+framework module unimoduleTusenTView {
+  umbrella header "unimoduleTusenTView.h"
+  export *
+
+  module * { export * }
+}
+
+module unimoduleTusenTView.Swift {
+  header "unimoduleTusenTView-Swift.h"
+  requires objc
+}

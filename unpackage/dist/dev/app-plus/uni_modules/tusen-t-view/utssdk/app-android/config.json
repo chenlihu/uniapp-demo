@@ -1,8 +1,0 @@
-{
-  "components": [
-    {
-      "name": "tusen-t-view",
-      "class": "uts.sdk.modules.tusenTView.TusenTViewComponent"
-    }
-  ]
-}

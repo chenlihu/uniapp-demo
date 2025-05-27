@@ -1,0 +1,6 @@
+framework module DCloudUTSExtAPI {
+  umbrella header "DCloudUTSExtAPI.h"
+  export *
+
+  module * { export * }
+}

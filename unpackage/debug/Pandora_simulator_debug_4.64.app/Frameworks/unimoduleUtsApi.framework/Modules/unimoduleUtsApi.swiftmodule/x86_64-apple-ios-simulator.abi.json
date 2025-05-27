@@ -1,0 +1,3566 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "unimoduleUtsApi",
+    "printedName": "unimoduleUtsApi",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "DCloudUTSFoundation",
+        "printedName": "DCloudUTSFoundation",
+        "declKind": "Import",
+        "moduleName": "unimoduleUtsApi"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyApiOptions",
+        "printedName": "MyApiOptions",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "__$getOriginalPosition",
+            "printedName": "__$getOriginalPosition()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSSourceMapPosition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSSourceMapPosition",
+                    "printedName": "DCloudUTSFoundation.UTSSourceMapPosition",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSSourceMapPosition"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)__$getOriginalPosition",
+            "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC22__$getOriginalPosition19DCloudUTSFoundation012UTSSourceMapH0CSgyF",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "paramA",
+            "printedName": "paramA",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(py)paramA",
+            "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC6paramASbvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)paramA",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC6paramASbvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)setParamA:",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC6paramASbvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC7OptionsC6paramASbvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC6paramASbvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((unimoduleUtsApi.MyApiResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(unimoduleUtsApi.MyApiResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MyApiResult",
+                        "printedName": "unimoduleUtsApi.MyApiResult",
+                        "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(py)success",
+            "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC7successyAA0dC6ResultCcSgvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((unimoduleUtsApi.MyApiResult) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(unimoduleUtsApi.MyApiResult) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MyApiResult",
+                            "printedName": "unimoduleUtsApi.MyApiResult",
+                            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)success",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC7successyAA0dC6ResultCcSgvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((unimoduleUtsApi.MyApiResult) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(unimoduleUtsApi.MyApiResult) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MyApiResult",
+                            "printedName": "unimoduleUtsApi.MyApiResult",
+                            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)setSuccess:",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC7successyAA0dC6ResultCcSgvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC7OptionsC7successyAA0dC6ResultCcSgvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC7successyAA0dC6ResultCcSgvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fail",
+            "printedName": "fail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any unimoduleUtsApi.MyApiFail) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any unimoduleUtsApi.MyApiFail) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MyApiFail",
+                        "printedName": "any unimoduleUtsApi.MyApiFail",
+                        "usr": "s:15unimoduleUtsApi02MyC4FailP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15unimoduleUtsApi02MyC7OptionsC4failyAA0dC4Fail_pcSgvp",
+            "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC4failyAA0dC4Fail_pcSgvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any unimoduleUtsApi.MyApiFail) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any unimoduleUtsApi.MyApiFail) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MyApiFail",
+                            "printedName": "any unimoduleUtsApi.MyApiFail",
+                            "usr": "s:15unimoduleUtsApi02MyC4FailP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC7OptionsC4failyAA0dC4Fail_pcSgvg",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC4failyAA0dC4Fail_pcSgvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any unimoduleUtsApi.MyApiFail) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any unimoduleUtsApi.MyApiFail) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MyApiFail",
+                            "printedName": "any unimoduleUtsApi.MyApiFail",
+                            "usr": "s:15unimoduleUtsApi02MyC4FailP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC7OptionsC4failyAA0dC4Fail_pcSgvs",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC4failyAA0dC4Fail_pcSgvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC7OptionsC4failyAA0dC4Fail_pcSgvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC4failyAA0dC4Fail_pcSgvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "complete",
+            "printedName": "complete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(py)complete",
+            "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC8completeyypcSgvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)complete",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC8completeyypcSgvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)setComplete:",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC8completeyypcSgvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC7OptionsC8completeyypcSgvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC8completeyypcSgvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:15unimoduleUtsApi02MyC7OptionsCyypSgSScip",
+            "mangledName": "$s15unimoduleUtsApi02MyC7OptionsCyypSgSScip",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)objectForKeyedSubscript:",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsCyypSgSScig",
+                "moduleName": "unimoduleUtsApi",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)setObject:forKeyedSubscript:",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsCyypSgSScis",
+                "moduleName": "unimoduleUtsApi",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC7OptionsCyypSgSSciM",
+                "mangledName": "$s15unimoduleUtsApi02MyC7OptionsCyypSgSSciM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiOptions",
+                "printedName": "unimoduleUtsApi.MyApiOptions",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)init",
+            "mangledName": "$s15unimoduleUtsApi02MyC7OptionsCACycfc",
+            "moduleName": "unimoduleUtsApi",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiOptions",
+                "printedName": "unimoduleUtsApi.MyApiOptions",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UTSJSONObject",
+                "printedName": "DCloudUTSFoundation.UTSJSONObject",
+                "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSJSONObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions(im)init:",
+            "mangledName": "$s15unimoduleUtsApi02MyC7OptionsCyAC19DCloudUTSFoundation13UTSJSONObjectCcfc",
+            "moduleName": "unimoduleUtsApi",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions",
+        "mangledName": "$s15unimoduleUtsApi02MyC7OptionsC",
+        "moduleName": "unimoduleUtsApi",
+        "isOpen": true,
+        "objc_name": "UTSSDKModulesUtsApiMyApiOptions",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UTSObject",
+            "printedName": "UTSObject",
+            "usr": "s:19DCloudUTSFoundation9UTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation9UTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUTSSourceMap",
+            "printedName": "IUTSSourceMap",
+            "usr": "s:19DCloudUTSFoundation13IUTSSourceMapP",
+            "mangledName": "$s19DCloudUTSFoundation13IUTSSourceMapP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUTSObject",
+            "printedName": "IUTSObject",
+            "usr": "s:19DCloudUTSFoundation10IUTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation10IUTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DCUTSSequence",
+            "printedName": "DCUTSSequence",
+            "usr": "s:19DCloudUTSFoundation13DCUTSSequenceP",
+            "mangledName": "$s19DCloudUTSFoundation13DCUTSSequenceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DCUniIterator",
+                    "printedName": "DCloudUTSFoundation.DCUniIterator",
+                    "usr": "s:19DCloudUTSFoundation13DCUniIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyApiResult",
+        "printedName": "MyApiResult",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "__$getOriginalPosition",
+            "printedName": "__$getOriginalPosition()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSSourceMapPosition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSSourceMapPosition",
+                    "printedName": "DCloudUTSFoundation.UTSSourceMapPosition",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSSourceMapPosition"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)__$getOriginalPosition",
+            "mangledName": "$s15unimoduleUtsApi02MyC6ResultC22__$getOriginalPosition19DCloudUTSFoundation012UTSSourceMapH0CSgyF",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "fieldA",
+            "printedName": "fieldA",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(py)fieldA",
+            "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldASo8NSNumberCSgvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)fieldA",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldASo8NSNumberCSgvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)setFieldA:",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldASo8NSNumberCSgvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC6ResultC6fieldASo8NSNumberCSgvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldASo8NSNumberCSgvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fieldB",
+            "printedName": "fieldB",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(py)fieldB",
+            "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldBSbvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)fieldB",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldBSbvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)setFieldB:",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldBSbvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC6ResultC6fieldBSbvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldBSbvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fieldC",
+            "printedName": "fieldC",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(py)fieldC",
+            "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldCSSSgvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)fieldC",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldCSSSgvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)setFieldC:",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldCSSSgvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC6ResultC6fieldCSSSgvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultC6fieldCSSSgvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:15unimoduleUtsApi02MyC6ResultCyypSgSScip",
+            "mangledName": "$s15unimoduleUtsApi02MyC6ResultCyypSgSScip",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)objectForKeyedSubscript:",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultCyypSgSScig",
+                "moduleName": "unimoduleUtsApi",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)setObject:forKeyedSubscript:",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultCyypSgSScis",
+                "moduleName": "unimoduleUtsApi",
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC6ResultCyypSgSSciM",
+                "mangledName": "$s15unimoduleUtsApi02MyC6ResultCyypSgSSciM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiResult",
+                "printedName": "unimoduleUtsApi.MyApiResult",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)init",
+            "mangledName": "$s15unimoduleUtsApi02MyC6ResultCACycfc",
+            "moduleName": "unimoduleUtsApi",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiResult",
+                "printedName": "unimoduleUtsApi.MyApiResult",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UTSJSONObject",
+                "printedName": "DCloudUTSFoundation.UTSJSONObject",
+                "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSJSONObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult(im)init:",
+            "mangledName": "$s15unimoduleUtsApi02MyC6ResultCyAC19DCloudUTSFoundation13UTSJSONObjectCcfc",
+            "moduleName": "unimoduleUtsApi",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult",
+        "mangledName": "$s15unimoduleUtsApi02MyC6ResultC",
+        "moduleName": "unimoduleUtsApi",
+        "isOpen": true,
+        "objc_name": "UTSSDKModulesUtsApiMyApiResult",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UTSObject",
+            "printedName": "UTSObject",
+            "usr": "s:19DCloudUTSFoundation9UTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation9UTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUTSSourceMap",
+            "printedName": "IUTSSourceMap",
+            "usr": "s:19DCloudUTSFoundation13IUTSSourceMapP",
+            "mangledName": "$s19DCloudUTSFoundation13IUTSSourceMapP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUTSObject",
+            "printedName": "IUTSObject",
+            "usr": "s:19DCloudUTSFoundation10IUTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation10IUTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DCUTSSequence",
+            "printedName": "DCUTSSequence",
+            "usr": "s:19DCloudUTSFoundation13DCUTSSequenceP",
+            "mangledName": "$s19DCloudUTSFoundation13DCUTSSequenceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DCUniIterator",
+                    "printedName": "DCloudUTSFoundation.DCUniIterator",
+                    "usr": "s:19DCloudUTSFoundation13DCUniIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyApiFail",
+        "printedName": "MyApiFail",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errCode",
+            "printedName": "errCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15unimoduleUtsApi02MyC4FailP7errCodeSo8NSNumberCvp",
+            "mangledName": "$s15unimoduleUtsApi02MyC4FailP7errCodeSo8NSNumberCvp",
+            "moduleName": "unimoduleUtsApi",
+            "protocolReq": true,
+            "overriding": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC4FailP7errCodeSo8NSNumberCvg",
+                "mangledName": "$s15unimoduleUtsApi02MyC4FailP7errCodeSo8NSNumberCvg",
+                "moduleName": "unimoduleUtsApi",
+                "genericSig": "<τ_0_0 where τ_0_0 : unimoduleUtsApi.MyApiFail>",
+                "sugared_genericSig": "<Self where Self : unimoduleUtsApi.MyApiFail>",
+                "protocolReq": true,
+                "overriding": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC4FailP7errCodeSo8NSNumberCvs",
+                "mangledName": "$s15unimoduleUtsApi02MyC4FailP7errCodeSo8NSNumberCvs",
+                "moduleName": "unimoduleUtsApi",
+                "genericSig": "<τ_0_0 where τ_0_0 : unimoduleUtsApi.MyApiFail>",
+                "sugared_genericSig": "<Self where Self : unimoduleUtsApi.MyApiFail>",
+                "protocolReq": true,
+                "overriding": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC4FailP7errCodeSo8NSNumberCvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC4FailP7errCodeSo8NSNumberCvM",
+                "moduleName": "unimoduleUtsApi",
+                "genericSig": "<τ_0_0 where τ_0_0 : unimoduleUtsApi.MyApiFail>",
+                "sugared_genericSig": "<Self where Self : unimoduleUtsApi.MyApiFail>",
+                "protocolReq": true,
+                "overriding": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15unimoduleUtsApi02MyC4FailP",
+        "mangledName": "$s15unimoduleUtsApi02MyC4FailP",
+        "moduleName": "unimoduleUtsApi",
+        "genericSig": "<τ_0_0 : DCloudUTSFoundation.IUniError>",
+        "sugared_genericSig": "<Self : DCloudUTSFoundation.IUniError>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUniError",
+            "printedName": "IUniError",
+            "usr": "s:19DCloudUTSFoundation9IUniErrorP",
+            "mangledName": "$s19DCloudUTSFoundation9IUniErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AsyncApiResult",
+            "printedName": "AsyncApiResult",
+            "usr": "s:19DCloudUTSFoundation14AsyncApiResultP",
+            "mangledName": "$s19DCloudUTSFoundation14AsyncApiResultP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "UniErrorSubject",
+        "printedName": "UniErrorSubject",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:15unimoduleUtsApi15UniErrorSubjectSSvp",
+        "mangledName": "$s15unimoduleUtsApi15UniErrorSubjectSSvp",
+        "moduleName": "unimoduleUtsApi",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi15UniErrorSubjectSSvg",
+            "mangledName": "$s15unimoduleUtsApi15UniErrorSubjectSSvg",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi15UniErrorSubjectSSvs",
+            "mangledName": "$s15unimoduleUtsApi15UniErrorSubjectSSvs",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi15UniErrorSubjectSSvM",
+            "mangledName": "$s15unimoduleUtsApi15UniErrorSubjectSSvM",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "UTSApiUniErrors",
+        "printedName": "UTSApiUniErrors",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Foundation.NSNumber : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:15unimoduleUtsApi15UTSApiUniErrorsSDySo8NSNumberCSSGvp",
+        "mangledName": "$s15unimoduleUtsApi15UTSApiUniErrorsSDySo8NSNumberCSSGvp",
+        "moduleName": "unimoduleUtsApi",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Foundation.NSNumber : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi15UTSApiUniErrorsSDySo8NSNumberCSSGvg",
+            "mangledName": "$s15unimoduleUtsApi15UTSApiUniErrorsSDySo8NSNumberCSSGvg",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Foundation.NSNumber : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi15UTSApiUniErrorsSDySo8NSNumberCSSGvs",
+            "mangledName": "$s15unimoduleUtsApi15UTSApiUniErrorsSDySo8NSNumberCSSGvs",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi15UTSApiUniErrorsSDySo8NSNumberCSSGvM",
+            "mangledName": "$s15unimoduleUtsApi15UTSApiUniErrorsSDySo8NSNumberCSSGvM",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyApiFailImpl",
+        "printedName": "MyApiFailImpl",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errCode",
+            "printedName": "errCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15unimoduleUtsApi02MyC8FailImplC7errCodeSo8NSNumberCvp",
+            "mangledName": "$s15unimoduleUtsApi02MyC8FailImplC7errCodeSo8NSNumberCvp",
+            "moduleName": "unimoduleUtsApi",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "errCode",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC8FailImplC7errCodeSo8NSNumberCvg",
+                "mangledName": "$s15unimoduleUtsApi02MyC8FailImplC7errCodeSo8NSNumberCvg",
+                "moduleName": "unimoduleUtsApi",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "errCode",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC8FailImplC7errCodeSo8NSNumberCvs",
+                "mangledName": "$s15unimoduleUtsApi02MyC8FailImplC7errCodeSo8NSNumberCvs",
+                "moduleName": "unimoduleUtsApi",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "setErrCode:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC8FailImplC7errCodeSo8NSNumberCvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC8FailImplC7errCodeSo8NSNumberCvM",
+                "moduleName": "unimoduleUtsApi",
+                "overriding": true,
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiFailImpl",
+                "printedName": "unimoduleUtsApi.MyApiFailImpl",
+                "usr": "s:15unimoduleUtsApi02MyC8FailImplC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15unimoduleUtsApi02MyC8FailImplCyACSo8NSNumberCcfc",
+            "mangledName": "$s15unimoduleUtsApi02MyC8FailImplCyACSo8NSNumberCcfc",
+            "moduleName": "unimoduleUtsApi",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiFailImpl",
+                "printedName": "unimoduleUtsApi.MyApiFailImpl",
+                "usr": "s:15unimoduleUtsApi02MyC8FailImplC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSJSONObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSJSONObject",
+                    "printedName": "DCloudUTSFoundation.UTSJSONObject",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSJSONObject"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15unimoduleUtsApi02MyC8FailImplCyACSS_So8NSNumberCSSypSg19DCloudUTSFoundation13UTSJSONObjectCSgtcfc",
+            "mangledName": "$s15unimoduleUtsApi02MyC8FailImplCyACSS_So8NSNumberCSSypSg19DCloudUTSFoundation13UTSJSONObjectCSgtcfc",
+            "moduleName": "unimoduleUtsApi",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init:::::",
+            "declAttributes": [
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiFailImpl",
+                "printedName": "unimoduleUtsApi.MyApiFailImpl",
+                "usr": "s:15unimoduleUtsApi02MyC8FailImplC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15unimoduleUtsApi02MyC8FailImplCACycfc",
+            "mangledName": "$s15unimoduleUtsApi02MyC8FailImplCACycfc",
+            "moduleName": "unimoduleUtsApi",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15unimoduleUtsApi02MyC8FailImplC",
+        "mangledName": "$s15unimoduleUtsApi02MyC8FailImplC",
+        "moduleName": "unimoduleUtsApi",
+        "isOpen": true,
+        "objc_name": "UTSSDKModulesUtsApiMyApiFailImpl",
+        "declAttributes": [
+          "ObjCRuntimeName",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@DCloudUTSFoundation@objc(cs)UniError",
+        "superclassNames": [
+          "DCloudUTSFoundation.UniError",
+          "DCloudUTSFoundation.UTSError",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MyApiFail",
+            "printedName": "MyApiFail",
+            "usr": "s:15unimoduleUtsApi02MyC4FailP",
+            "mangledName": "$s15unimoduleUtsApi02MyC4FailP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUniError",
+            "printedName": "IUniError",
+            "usr": "s:19DCloudUTSFoundation9IUniErrorP",
+            "mangledName": "$s19DCloudUTSFoundation9IUniErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AsyncApiResult",
+            "printedName": "AsyncApiResult",
+            "usr": "s:19DCloudUTSFoundation14AsyncApiResultP",
+            "mangledName": "$s19DCloudUTSFoundation14AsyncApiResultP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "myApi",
+        "printedName": "myApi",
+        "children": [
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(unimoduleUtsApi.MyApiOptions) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiOptions",
+                "printedName": "unimoduleUtsApi.MyApiOptions",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions"
+              }
+            ]
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:15unimoduleUtsApi02myC0yyAA02MyC7OptionsCcvp",
+        "mangledName": "$s15unimoduleUtsApi02myC0yyAA02MyC7OptionsCcvp",
+        "moduleName": "unimoduleUtsApi",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(unimoduleUtsApi.MyApiOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyApiOptions",
+                    "printedName": "unimoduleUtsApi.MyApiOptions",
+                    "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi02myC0yyAA02MyC7OptionsCcvg",
+            "mangledName": "$s15unimoduleUtsApi02myC0yyAA02MyC7OptionsCcvg",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(unimoduleUtsApi.MyApiOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyApiOptions",
+                    "printedName": "unimoduleUtsApi.MyApiOptions",
+                    "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi02myC0yyAA02MyC7OptionsCcvs",
+            "mangledName": "$s15unimoduleUtsApi02myC0yyAA02MyC7OptionsCcvs",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi02myC0yyAA02MyC7OptionsCcvM",
+            "mangledName": "$s15unimoduleUtsApi02myC0yyAA02MyC7OptionsCcvM",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "myApiSync",
+        "printedName": "myApiSync",
+        "children": [
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.Bool) -> unimoduleUtsApi.MyApiResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiResult",
+                "printedName": "unimoduleUtsApi.MyApiResult",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ]
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:15unimoduleUtsApi02myC4SyncyAA02MyC6ResultCSbcvp",
+        "mangledName": "$s15unimoduleUtsApi02myC4SyncyAA02MyC6ResultCSbcvp",
+        "moduleName": "unimoduleUtsApi",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> unimoduleUtsApi.MyApiResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyApiResult",
+                    "printedName": "unimoduleUtsApi.MyApiResult",
+                    "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi02myC4SyncyAA02MyC6ResultCSbcvg",
+            "mangledName": "$s15unimoduleUtsApi02myC4SyncyAA02MyC6ResultCSbcvg",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> unimoduleUtsApi.MyApiResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyApiResult",
+                    "printedName": "unimoduleUtsApi.MyApiResult",
+                    "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi02myC4SyncyAA02MyC6ResultCSbcvs",
+            "mangledName": "$s15unimoduleUtsApi02myC4SyncyAA02MyC6ResultCSbcvs",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:15unimoduleUtsApi02myC4SyncyAA02MyC6ResultCSbcvM",
+            "mangledName": "$s15unimoduleUtsApi02myC4SyncyAA02MyC6ResultCSbcvM",
+            "moduleName": "unimoduleUtsApi",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyApiOptionsJSONObject",
+        "printedName": "MyApiOptionsJSONObject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "paramA",
+            "printedName": "paramA",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(py)paramA",
+            "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC6paramASbvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(im)paramA",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC6paramASbvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(im)setParamA:",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC6paramASbvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC17OptionsJSONObjectC6paramASbvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC6paramASbvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSCallback",
+                    "printedName": "DCloudUTSFoundation.UTSCallback",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(py)success",
+            "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(im)success",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(im)setSuccess:",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fail",
+            "printedName": "fail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSCallback",
+                    "printedName": "DCloudUTSFoundation.UTSCallback",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(py)fail",
+            "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(im)fail",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(im)setFail:",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "complete",
+            "printedName": "complete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSCallback",
+                    "printedName": "DCloudUTSFoundation.UTSCallback",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(py)complete",
+            "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvp",
+            "moduleName": "unimoduleUtsApi",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(im)complete",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvg",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(im)setComplete:",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvs",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15unimoduleUtsApi02MyC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "moduleName": "unimoduleUtsApi",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiOptionsJSONObject",
+                "printedName": "unimoduleUtsApi.MyApiOptionsJSONObject",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject(im)init",
+            "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectCACycfc",
+            "moduleName": "unimoduleUtsApi",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject",
+        "mangledName": "$s15unimoduleUtsApi02MyC17OptionsJSONObjectC",
+        "moduleName": "unimoduleUtsApi",
+        "isOpen": true,
+        "objc_name": "UTSSDKModulesUtsApiMyApiOptionsJSONObject",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "myApiByJs",
+        "printedName": "myApiByJs(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "MyApiOptionsJSONObject",
+            "printedName": "unimoduleUtsApi.MyApiOptionsJSONObject",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:15unimoduleUtsApi02myC4ByJsyyAA02MyC17OptionsJSONObjectCF",
+        "mangledName": "$s15unimoduleUtsApi02myC4ByJsyyAA02MyC17OptionsJSONObjectCF",
+        "moduleName": "unimoduleUtsApi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "myApiSyncByJs",
+        "printedName": "myApiSyncByJs(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "MyApiResult",
+            "printedName": "unimoduleUtsApi.MyApiResult",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:15unimoduleUtsApi02myC8SyncByJsyAA02MyC6ResultCSbF",
+        "mangledName": "$s15unimoduleUtsApi02myC8SyncByJsyAA02MyC6ResultCSbF",
+        "moduleName": "unimoduleUtsApi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UTSSDKModulesUtsApiIndexSwift",
+        "printedName": "UTSSDKModulesUtsApiIndexSwift",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "s_myApiByJs",
+            "printedName": "s_myApiByJs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiOptionsJSONObject",
+                "printedName": "unimoduleUtsApi.MyApiOptionsJSONObject",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiOptionsJSONObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiIndexSwift(cm)s_myApiByJs:",
+            "mangledName": "$s15unimoduleUtsApi013UTSSDKModulesbC10IndexSwiftC04s_myC4ByJsyyAA02MyC17OptionsJSONObjectCFZ",
+            "moduleName": "unimoduleUtsApi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "s_myApiSyncByJs",
+            "printedName": "s_myApiSyncByJs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyApiResult",
+                "printedName": "unimoduleUtsApi.MyApiResult",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiMyApiResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiIndexSwift(cm)s_myApiSyncByJs:",
+            "mangledName": "$s15unimoduleUtsApi013UTSSDKModulesbC10IndexSwiftC04s_myC8SyncByJsyAA02MyC6ResultCSbFZ",
+            "moduleName": "unimoduleUtsApi",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UTSSDKModulesUtsApiIndexSwift",
+                "printedName": "unimoduleUtsApi.UTSSDKModulesUtsApiIndexSwift",
+                "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiIndexSwift"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiIndexSwift(im)init",
+            "mangledName": "$s15unimoduleUtsApi013UTSSDKModulesbC10IndexSwiftCACycfc",
+            "moduleName": "unimoduleUtsApi",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@unimoduleUtsApi@objc(cs)UTSSDKModulesUtsApiIndexSwift",
+        "mangledName": "$s15unimoduleUtsApi013UTSSDKModulesbC10IndexSwiftC",
+        "moduleName": "unimoduleUtsApi",
+        "isOpen": true,
+        "objc_name": "UTSSDKModulesUtsApiIndexSwift",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 351,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1901,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 3005,
+      "length": 9,
+      "value": "\"uts-api\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3093,
+      "length": 7,
+      "value": "9010001"
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 3110,
+      "length": 23,
+      "value": "\"custom error mseeage1\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3155,
+      "length": 7,
+      "value": "9010002"
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 3172,
+      "length": 23,
+      "value": "\"custom error mseeage2\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3822,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 3880,
+      "length": 8,
+      "value": "\"fieldA\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3890,
+      "length": 2,
+      "value": "85"
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 3914,
+      "length": 8,
+      "value": "\"fieldB\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3924,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 3938,
+      "length": 8,
+      "value": "\"fieldC\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 3948,
+      "length": 14,
+      "value": "\"some message\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4068,
+      "length": 7,
+      "value": "9010001"
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4258,
+      "length": 8,
+      "value": "\"fieldA\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4268,
+      "length": 2,
+      "value": "85"
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4288,
+      "length": 8,
+      "value": "\"fieldB\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4310,
+      "length": 8,
+      "value": "\"fieldC\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4320,
+      "length": 14,
+      "value": "\"some message\""
+    },
+    {
+      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/uts-api\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4493,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

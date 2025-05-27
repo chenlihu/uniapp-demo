@@ -1,0 +1,96 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/var/folders/j4/vycd07mx64x3wpsp4rn69f4w0000gn/T/ios_build_device/template/xcode_ust_template/uni_modules/tusen-t-view/utssdk/app-ios/build/Debug-iphonesimulator/unimoduleTusenTView.framework/unimoduleTusenTView'
+relocations:
+  - { offset: 0xC0D88, size: 0x8, addend: 0x0, symName: _unimoduleTusenTViewVersionString, symObjAddr: 0x0, symBinAddr: 0x7400, symSize: 0x0 }
+  - { offset: 0xC0DBD, size: 0x8, addend: 0x0, symName: _unimoduleTusenTViewVersionNumber, symObjAddr: 0x30, symBinAddr: 0x7430, symSize: 0x0 }
+  - { offset: 0xC0DFA, size: 0x8, addend: 0x0, symName: '+[DCloudUTSConfig load]', symObjAddr: 0x0, symBinAddr: 0x1580, symSize: 0xA0 }
+  - { offset: 0xC0E08, size: 0x8, addend: 0x0, symName: '+[DCloudUTSConfig load]', symObjAddr: 0x0, symBinAddr: 0x1580, symSize: 0xA0 }
+  - { offset: 0xC0E2E, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2058, symBinAddr: 0x90B8, symSize: 0x0 }
+  - { offset: 0xC0EBE, size: 0x8, addend: 0x0, symName: '___23+[DCloudUTSConfig load]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0x1620, symSize: 0x5F7 }
+  - { offset: 0xC1125, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvp', symObjAddr: 0xA1D8, symBinAddr: 0x90C0, symSize: 0x0 }
+  - { offset: 0xC15CE, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvpACTK', symObjAddr: 0x200, symBinAddr: 0x1E00, symSize: 0x70 }
+  - { offset: 0xC15E6, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvpACTk', symObjAddr: 0x270, symBinAddr: 0x1E70, symSize: 0x80 }
+  - { offset: 0xC15FE, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvau', symObjAddr: 0x760, symBinAddr: 0x2360, symSize: 0x10 }
+  - { offset: 0xC161C, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCMa', symObjAddr: 0x770, symBinAddr: 0x2370, symSize: 0x20 }
+  - { offset: 0xC1630, size: 0x8, addend: 0x0, symName: '_$sSo8UIButtonCMa', symObjAddr: 0x7D0, symBinAddr: 0x23D0, symSize: 0x50 }
+  - { offset: 0xC1644, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCSgWOh', symObjAddr: 0x850, symBinAddr: 0x2450, symSize: 0x20 }
+  - { offset: 0xC1658, size: 0x8, addend: 0x0, symName: '_$sypypIegnn_yXlyXlIeyByy_TR', symObjAddr: 0xF80, symBinAddr: 0x2B80, symSize: 0xA0 }
+  - { offset: 0xC1670, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentCfETo', symObjAddr: 0x1AE0, symBinAddr: 0x36E0, symSize: 0x40 }
+  - { offset: 0xC169E, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1D70, symBinAddr: 0x3970, symSize: 0x70 }
+  - { offset: 0xC16B2, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC8__$$inityyFyyp_yptcfU_TA', symObjAddr: 0x1E20, symBinAddr: 0x3A20, symSize: 0x10 }
+  - { offset: 0xC16C6, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1E30, symBinAddr: 0x3A30, symSize: 0x40 }
+  - { offset: 0xC16DA, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1E70, symBinAddr: 0x3A70, symSize: 0x10 }
+  - { offset: 0xC16EE, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentCMa', symObjAddr: 0x1E80, symBinAddr: 0x3A80, symSize: 0x20 }
+  - { offset: 0xC1702, size: 0x8, addend: 0x0, symName: '_$sSSWOh', symObjAddr: 0x1EA0, symBinAddr: 0x3AA0, symSize: 0x20 }
+  - { offset: 0xC1716, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCfETo', symObjAddr: 0x2160, symBinAddr: 0x3D60, symSize: 0x40 }
+  - { offset: 0xC1744, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvg', symObjAddr: 0x21A0, symBinAddr: 0x3DA0, symSize: 0x60 }
+  - { offset: 0xC1762, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvs', symObjAddr: 0x2200, symBinAddr: 0x3E00, symSize: 0x80 }
+  - { offset: 0xC1790, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvM', symObjAddr: 0x2280, symBinAddr: 0x3E80, symSize: 0x40 }
+  - { offset: 0xC17AE, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvM.resume.0', symObjAddr: 0x22C0, symBinAddr: 0x3EC0, symSize: 0x30 }
+  - { offset: 0xC17CC, size: 0x8, addend: 0x0, symName: '_$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5', symObjAddr: 0x2310, symBinAddr: 0x3F10, symSize: 0x20 }
+  - { offset: 0xC17EB, size: 0x8, addend: 0x0, symName: '_$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGKXEKlFyt_Tgq5', symObjAddr: 0x2330, symBinAddr: 0x3F30, symSize: 0x1E0 }
+  - { offset: 0xC180A, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_', symObjAddr: 0x2510, symBinAddr: 0x4110, symSize: 0x360 }
+  - { offset: 0xC1822, size: 0x8, addend: 0x0, symName: '_$sSSWOc', symObjAddr: 0x2960, symBinAddr: 0x4560, symSize: 0x40 }
+  - { offset: 0xC1836, size: 0x8, addend: 0x0, symName: '_$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGKXEKlFxSPys6UInt64VGKXEfU_yt_Tgq5', symObjAddr: 0x29A0, symBinAddr: 0x45A0, symSize: 0x140 }
+  - { offset: 0xC1855, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_', symObjAddr: 0x2AE0, symBinAddr: 0x46E0, symSize: 0x330 }
+  - { offset: 0xC186D, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_TA', symObjAddr: 0x2E10, symBinAddr: 0x4A10, symSize: 0x50 }
+  - { offset: 0xC1881, size: 0x8, addend: 0x0, symName: '_$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5TA', symObjAddr: 0x2E60, symBinAddr: 0x4A60, symSize: 0x20 }
+  - { offset: 0xC1895, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_', symObjAddr: 0x2E80, symBinAddr: 0x4A80, symSize: 0x540 }
+  - { offset: 0xC18AD, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_TA', symObjAddr: 0x33C0, symBinAddr: 0x4FC0, symSize: 0x40 }
+  - { offset: 0xC18C1, size: 0x8, addend: 0x0, symName: '_$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5TA.1', symObjAddr: 0x3400, symBinAddr: 0x5000, symSize: 0x20 }
+  - { offset: 0xC18D5, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x3420, symBinAddr: 0x5020, symSize: 0x50 }
+  - { offset: 0xC18E9, size: 0x8, addend: 0x0, symName: '_$sSa12_endMutationyyF', symObjAddr: 0x3470, symBinAddr: 0x5070, symSize: 0x6 }
+  - { offset: 0xC1932, size: 0x8, addend: 0x0, symName: '_$ss27_finalizeUninitializedArrayySayxGABnlF', symObjAddr: 0xC00, symBinAddr: 0x2800, symSize: 0x40 }
+  - { offset: 0xC19DF, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvgTo', symObjAddr: 0x20, symBinAddr: 0x1C20, symSize: 0x70 }
+  - { offset: 0xC19F3, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvg', symObjAddr: 0x90, symBinAddr: 0x1C90, symSize: 0x70 }
+  - { offset: 0xC1A1D, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvsTo', symObjAddr: 0x100, symBinAddr: 0x1D00, symSize: 0x60 }
+  - { offset: 0xC1A31, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvs', symObjAddr: 0x160, symBinAddr: 0x1D60, symSize: 0xA0 }
+  - { offset: 0xC1A64, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvM', symObjAddr: 0x2F0, symBinAddr: 0x1EF0, symSize: 0x50 }
+  - { offset: 0xC1A88, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvM.resume.0', symObjAddr: 0x340, symBinAddr: 0x1F40, symSize: 0x30 }
+  - { offset: 0xC1AA9, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC7createdyyF', symObjAddr: 0x370, symBinAddr: 0x1F70, symSize: 0x20 }
+  - { offset: 0xC1ACD, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC7createdyyFTo', symObjAddr: 0x390, symBinAddr: 0x1F90, symSize: 0x30 }
+  - { offset: 0xC1AE1, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC12NVBeforeLoadyyF', symObjAddr: 0x3C0, symBinAddr: 0x1FC0, symSize: 0x20 }
+  - { offset: 0xC1B05, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC12NVBeforeLoadyyFTo', symObjAddr: 0x3E0, symBinAddr: 0x1FE0, symSize: 0x30 }
+  - { offset: 0xC1B62, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC6NVLoadSo8UIButtonCyF', symObjAddr: 0x410, symBinAddr: 0x2010, symSize: 0x350 }
+  - { offset: 0xC1BE6, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCyACSo12UTSComponentCySo8UIButtonCGcfC', symObjAddr: 0x790, symBinAddr: 0x2390, symSize: 0x40 }
+  - { offset: 0xC1C00, size: 0x8, addend: 0x0, symName: '_$sSo8UIButtonCABycfC', symObjAddr: 0x820, symBinAddr: 0x2420, symSize: 0x30 }
+  - { offset: 0xC1C14, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC6NVLoadSo8UIButtonCyFTo', symObjAddr: 0x870, symBinAddr: 0x2470, symSize: 0x50 }
+  - { offset: 0xC1C28, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC8NVLoadedyyF', symObjAddr: 0x8C0, symBinAddr: 0x24C0, symSize: 0xB0 }
+  - { offset: 0xC1C4C, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC8NVLoadedyyFTo', symObjAddr: 0x970, symBinAddr: 0x2570, symSize: 0x30 }
+  - { offset: 0xC1C60, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10NVLayoutedyyF', symObjAddr: 0x9A0, symBinAddr: 0x25A0, symSize: 0x20 }
+  - { offset: 0xC1C84, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10NVLayoutedyyFTo', symObjAddr: 0x9C0, symBinAddr: 0x25C0, symSize: 0x30 }
+  - { offset: 0xC1C98, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC14NVBeforeUnloadyyF', symObjAddr: 0x9F0, symBinAddr: 0x25F0, symSize: 0x20 }
+  - { offset: 0xC1CBC, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC14NVBeforeUnloadyyFTo', symObjAddr: 0xA10, symBinAddr: 0x2610, symSize: 0x30 }
+  - { offset: 0xC1CD0, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10NVUnloadedyyF', symObjAddr: 0xA40, symBinAddr: 0x2640, symSize: 0x20 }
+  - { offset: 0xC1CF4, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC10NVUnloadedyyFTo', symObjAddr: 0xA60, symBinAddr: 0x2660, symSize: 0x30 }
+  - { offset: 0xC1D08, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC9unmountedyyF', symObjAddr: 0xA90, symBinAddr: 0x2690, symSize: 0x20 }
+  - { offset: 0xC1D2C, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC9unmountedyyFTo', symObjAddr: 0xAB0, symBinAddr: 0x26B0, symSize: 0x30 }
+  - { offset: 0xC1D40, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC11doSomethingyySSF', symObjAddr: 0xAE0, symBinAddr: 0x26E0, symSize: 0x120 }
+  - { offset: 0xC1D73, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC11doSomethingyySSFTo', symObjAddr: 0xC40, symBinAddr: 0x2840, symSize: 0x70 }
+  - { offset: 0xC1D93, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC18wx_export_method_0SSyFZ', symObjAddr: 0xCB0, symBinAddr: 0x28B0, symSize: 0x30 }
+  - { offset: 0xC1DBD, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC18wx_export_method_0SSyFZTo', symObjAddr: 0xCE0, symBinAddr: 0x28E0, symSize: 0x50 }
+  - { offset: 0xC1DD1, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC8__$$inityyF', symObjAddr: 0xD30, symBinAddr: 0x2930, symSize: 0x100 }
+  - { offset: 0xC1DF4, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC8__$$inityyFyyp_yptcfU_', symObjAddr: 0xE30, symBinAddr: 0x2A30, symSize: 0x150 }
+  - { offset: 0xC1E7B, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC8__$$inityyFTo', symObjAddr: 0x1020, symBinAddr: 0x2C20, symSize: 0x30 }
+  - { offset: 0xC1EAD, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC3ref4type6styles10attributes6events12weexInstanceACSS_SSSDys11AnyHashableVypGSgAMSayypGSgSo13WXSDKInstanceCtcfC', symObjAddr: 0x1050, symBinAddr: 0x2C50, symSize: 0x280 }
+  - { offset: 0xC1EC1, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC3ref4type6styles10attributes6events12weexInstanceACSS_SSSDys11AnyHashableVypGSgAMSayypGSgSo13WXSDKInstanceCtcfc', symObjAddr: 0x12D0, symBinAddr: 0x2ED0, symSize: 0x480 }
+  - { offset: 0xC1F34, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentC3ref4type6styles10attributes6events12weexInstanceACSS_SSSDys11AnyHashableVypGSgAMSayypGSgSo13WXSDKInstanceCtcfcTo', symObjAddr: 0x1750, symBinAddr: 0x3350, symSize: 0x240 }
+  - { offset: 0xC1F48, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentCACycfC', symObjAddr: 0x1990, symBinAddr: 0x3590, symSize: 0x20 }
+  - { offset: 0xC1F5C, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentCACycfc', symObjAddr: 0x19B0, symBinAddr: 0x35B0, symSize: 0xD0 }
+  - { offset: 0xC1F80, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentCACycfcTo', symObjAddr: 0x1A80, symBinAddr: 0x3680, symSize: 0x20 }
+  - { offset: 0xC1F94, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView0bC9ComponentCfD', symObjAddr: 0x1AA0, symBinAddr: 0x36A0, symSize: 0x40 }
+  - { offset: 0xC1FB8, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerC9component33_C2215FF96A3E6B9E4292D03A65E4484CLLSo12UTSComponentCySo8UIButtonCGvg', symObjAddr: 0x1B20, symBinAddr: 0x3720, symSize: 0x70 }
+  - { offset: 0xC1FDC, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerC9component33_C2215FF96A3E6B9E4292D03A65E4484CLLSo12UTSComponentCySo8UIButtonCGvs', symObjAddr: 0x1B90, symBinAddr: 0x3790, symSize: 0x90 }
+  - { offset: 0xC200F, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerC9component33_C2215FF96A3E6B9E4292D03A65E4484CLLSo12UTSComponentCySo8UIButtonCGvM', symObjAddr: 0x1C20, symBinAddr: 0x3820, symSize: 0x50 }
+  - { offset: 0xC2033, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerC9component33_C2215FF96A3E6B9E4292D03A65E4484CLLSo12UTSComponentCySo8UIButtonCGvM.resume.0', symObjAddr: 0x1C70, symBinAddr: 0x3870, symSize: 0x30 }
+  - { offset: 0xC2054, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCyACSo12UTSComponentCySo8UIButtonCGcfc', symObjAddr: 0x1CA0, symBinAddr: 0x38A0, symSize: 0xD0 }
+  - { offset: 0xC2087, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCyACSo12UTSComponentCySo8UIButtonCGcfcTo', symObjAddr: 0x1EC0, symBinAddr: 0x3AC0, symSize: 0x30 }
+  - { offset: 0xC209B, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerC06buttonE6ActionyyF', symObjAddr: 0x1EF0, symBinAddr: 0x3AF0, symSize: 0x150 }
+  - { offset: 0xC20BF, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerC06buttonE6ActionyyFTo', symObjAddr: 0x2040, symBinAddr: 0x3C40, symSize: 0x30 }
+  - { offset: 0xC20D3, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCACycfC', symObjAddr: 0x2070, symBinAddr: 0x3C70, symSize: 0x20 }
+  - { offset: 0xC20E7, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCACycfc', symObjAddr: 0x2090, symBinAddr: 0x3C90, symSize: 0x70 }
+  - { offset: 0xC210B, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCACycfcTo', symObjAddr: 0x2100, symBinAddr: 0x3D00, symSize: 0x20 }
+  - { offset: 0xC211F, size: 0x8, addend: 0x0, symName: '_$s19unimoduleTusenTView19ButtonClickListsnerCfD', symObjAddr: 0x2120, symBinAddr: 0x3D20, symSize: 0x40 }
+  - { offset: 0xC2143, size: 0x8, addend: 0x0, symName: '_$sSo8UIButtonCABycfcTO', symObjAddr: 0x22F0, symBinAddr: 0x3EF0, symSize: 0x20 }
+...

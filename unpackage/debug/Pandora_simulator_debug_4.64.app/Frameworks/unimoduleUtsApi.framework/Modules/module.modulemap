@@ -1,0 +1,11 @@
+framework module unimoduleUtsApi {
+  umbrella header "unimoduleUtsApi.h"
+  export *
+
+  module * { export * }
+}
+
+module unimoduleUtsApi.Swift {
+  header "unimoduleUtsApi-Swift.h"
+  requires objc
+}

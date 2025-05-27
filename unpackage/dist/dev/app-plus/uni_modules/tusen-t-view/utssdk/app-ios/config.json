@@ -1,0 +1,8 @@
+{
+  "components": [
+    {
+      "name": "tusen-t-view",
+      "class": "UTSSDKModulesTusenTViewTusenTViewComponent"
+    }
+  ]
+}
