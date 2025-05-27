@@ -40,7 +40,7 @@ import SceneKit
         customNode.position = SCNVector3(x: 0, y: 0, z: 0) // Adjust y as needed based on model
         // Adjust model scale - make it smaller
         customNode.scale = SCNVector3(x: 0.2, y: 0.2, z: 0.2) // Example scale, adjust as needed
-		        scene.rootNode.addChildNode(customNode)
+		scene.rootNode.addChildNode(customNode)
         print("node finish")
 
         /* Temporarily comment out the cube to simplify the scene
