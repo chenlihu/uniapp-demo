@@ -24,103 +24,6 @@
         "printedName": "TusenTViewComponent",
         "children": [
           {
-            "kind": "Var",
-            "name": "buttontext",
-            "printedName": "buttontext",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19unimoduleTusenTView0bC9ComponentC10buttontextSSvp",
-            "mangledName": "$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvp",
-            "moduleName": "unimoduleTusenTView",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19unimoduleTusenTView0bC9ComponentC10buttontextSSvg",
-                "mangledName": "$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvg",
-                "moduleName": "unimoduleTusenTView",
-                "implicit": true,
-                "isOpen": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19unimoduleTusenTView0bC9ComponentC10buttontextSSvs",
-                "mangledName": "$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvs",
-                "moduleName": "unimoduleTusenTView",
-                "implicit": true,
-                "isOpen": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19unimoduleTusenTView0bC9ComponentC10buttontextSSvM",
-                "mangledName": "$s19unimoduleTusenTView0bC9ComponentC10buttontextSSvM",
-                "moduleName": "unimoduleTusenTView",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "created",
             "printedName": "created()",
@@ -179,14 +82,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIButton",
-                "printedName": "UIKit.UIButton",
-                "usr": "c:objc(cs)UIButton"
+                "name": "Tusen3DView",
+                "printedName": "unimoduleTusenTView.Tusen3DView",
+                "usr": "c:@M@unimoduleTusenTView@objc(cs)Tusen3DView"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19unimoduleTusenTView0bC9ComponentC6NVLoadSo8UIButtonCyF",
-            "mangledName": "$s19unimoduleTusenTView0bC9ComponentC6NVLoadSo8UIButtonCyF",
+            "usr": "s:19unimoduleTusenTView0bC9ComponentC6NVLoadAA11Tusen3DViewCyF",
+            "mangledName": "$s19unimoduleTusenTView0bC9ComponentC6NVLoadAA11Tusen3DViewCyF",
             "moduleName": "unimoduleTusenTView",
             "overriding": true,
             "isOpen": true,
@@ -321,84 +224,6 @@
             "overriding": true,
             "isOpen": true,
             "objc_name": "unmounted",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "doSomething",
-            "printedName": "doSomething(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19unimoduleTusenTView0bC9ComponentC11doSomethingyySSF",
-            "mangledName": "$s19unimoduleTusenTView0bC9ComponentC11doSomethingyySSF",
-            "moduleName": "unimoduleTusenTView",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "wx_export_method_0",
-            "printedName": "wx_export_method_0()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19unimoduleTusenTView0bC9ComponentC18wx_export_method_0SSyFZ",
-            "mangledName": "$s19unimoduleTusenTView0bC9ComponentC18wx_export_method_0SSyFZ",
-            "moduleName": "unimoduleTusenTView",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "__$$init",
-            "printedName": "__$$init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19unimoduleTusenTView0bC9ComponentC8__$$inityyF",
-            "mangledName": "$s19unimoduleTusenTView0bC9ComponentC8__$$inityyF",
-            "moduleName": "unimoduleTusenTView",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "__$$init",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -569,7 +394,7 @@
         "superclassUsr": "c:objc(cs)UTSComponent",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "DCloudUTSFoundation.UTSComponent<UIKit.UIButton>",
+          "DCloudUTSFoundation.UTSComponent<unimoduleTusenTView.Tusen3DView>",
           "DCUniBase.DCUniComponent",
           "DCUniBase.DCUniBaseCompenent",
           "DCUniBase.WXComponent",
@@ -642,108 +467,117 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "unimoduleTusenTView"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "unimoduleTusenTView"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "ButtonClickListsner",
-        "printedName": "ButtonClickListsner",
+        "name": "Tusen3DView",
+        "printedName": "Tusen3DView",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:)",
+            "printedName": "init(frame:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ButtonClickListsner",
-                "printedName": "unimoduleTusenTView.ButtonClickListsner",
-                "usr": "c:@M@unimoduleTusenTView@objc(cs)UTSSDKModulesTusenTViewButtonClickListsner"
+                "name": "Tusen3DView",
+                "printedName": "unimoduleTusenTView.Tusen3DView",
+                "usr": "c:@M@unimoduleTusenTView@objc(cs)Tusen3DView"
               },
               {
                 "kind": "TypeNominal",
-                "name": "UTSComponent",
-                "printedName": "DCloudUTSFoundation.UTSComponent<UIKit.UIButton>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "usr": "c:objc(cs)UTSComponent"
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@unimoduleTusenTView@objc(cs)UTSSDKModulesTusenTViewButtonClickListsner(im)init:",
-            "mangledName": "$s19unimoduleTusenTView19ButtonClickListsnerCyACSo12UTSComponentCySo8UIButtonCGcfc",
+            "usr": "c:@M@unimoduleTusenTView@objc(cs)Tusen3DView(im)initWithFrame:",
+            "mangledName": "$s19unimoduleTusenTView11Tusen3DViewC5frameACSo6CGRectV_tcfc",
             "moduleName": "unimoduleTusenTView",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
           {
-            "kind": "Function",
-            "name": "buttonClickAction",
-            "printedName": "buttonClickAction()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@unimoduleTusenTView@objc(cs)UTSSDKModulesTusenTViewButtonClickListsner(im)buttonClickAction",
-            "mangledName": "$s19unimoduleTusenTView19ButtonClickListsnerC06buttonE6ActionyyF",
-            "moduleName": "unimoduleTusenTView",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
+            "printedName": "init(coder:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ButtonClickListsner",
-                "printedName": "unimoduleTusenTView.ButtonClickListsner",
-                "usr": "c:@M@unimoduleTusenTView@objc(cs)UTSSDKModulesTusenTViewButtonClickListsner"
+                "name": "Optional",
+                "printedName": "unimoduleTusenTView.Tusen3DView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tusen3DView",
+                    "printedName": "unimoduleTusenTView.Tusen3DView",
+                    "usr": "c:@M@unimoduleTusenTView@objc(cs)Tusen3DView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@unimoduleTusenTView@objc(cs)UTSSDKModulesTusenTViewButtonClickListsner(im)init",
-            "mangledName": "$s19unimoduleTusenTView19ButtonClickListsnerCACycfc",
+            "usr": "c:@M@unimoduleTusenTView@objc(cs)Tusen3DView(im)initWithCoder:",
+            "mangledName": "$s19unimoduleTusenTView11Tusen3DViewC5coderACSgSo7NSCoderC_tcfc",
             "moduleName": "unimoduleTusenTView",
             "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
+            "objc_name": "initWithCoder:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override"
+              "Preconcurrency",
+              "Custom",
+              "Required"
             ],
             "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@unimoduleTusenTView@objc(cs)UTSSDKModulesTusenTViewButtonClickListsner",
-        "mangledName": "$s19unimoduleTusenTView19ButtonClickListsnerC",
+        "usr": "c:@M@unimoduleTusenTView@objc(cs)Tusen3DView",
+        "mangledName": "$s19unimoduleTusenTView11Tusen3DViewC",
         "moduleName": "unimoduleTusenTView",
         "isOpen": true,
-        "objc_name": "UTSSDKModulesTusenTViewButtonClickListsner",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl",
-          "ObjCMembers",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
         "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -809,129 +643,25 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "buttonClickListsner",
-        "printedName": "buttonClickListsner",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "unimoduleTusenTView.ButtonClickListsner?",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ButtonClickListsner",
-                "printedName": "unimoduleTusenTView.ButtonClickListsner",
-                "usr": "c:@M@unimoduleTusenTView@objc(cs)UTSSDKModulesTusenTViewButtonClickListsner"
-              }
-            ],
-            "usr": "s:Sq"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvp",
-        "mangledName": "$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvp",
-        "moduleName": "unimoduleTusenTView",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl"
-        ],
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "unimoduleTusenTView.ButtonClickListsner?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ButtonClickListsner",
-                    "printedName": "unimoduleTusenTView.ButtonClickListsner",
-                    "usr": "c:@M@unimoduleTusenTView@objc(cs)UTSSDKModulesTusenTViewButtonClickListsner"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvg",
-            "mangledName": "$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvg",
-            "moduleName": "unimoduleTusenTView",
-            "implicit": true,
-            "accessorKind": "get"
           },
           {
-            "kind": "Accessor",
-            "name": "Set",
-            "printedName": "Set()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "unimoduleTusenTView.ButtonClickListsner?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ButtonClickListsner",
-                    "printedName": "unimoduleTusenTView.ButtonClickListsner",
-                    "usr": "c:@M@unimoduleTusenTView@objc(cs)UTSSDKModulesTusenTViewButtonClickListsner"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvs",
-            "mangledName": "$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvs",
-            "moduleName": "unimoduleTusenTView",
-            "implicit": true,
-            "accessorKind": "set"
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
-            "kind": "Accessor",
-            "name": "Modify",
-            "printedName": "Modify()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvM",
-            "mangledName": "$s19unimoduleTusenTView19buttonClickListsnerAA06ButtoneF0CSgvM",
-            "moduleName": "unimoduleTusenTView",
-            "implicit": true,
-            "accessorKind": "_modify"
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
         ]
       }
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/var\/folders\/j4\/vycd07mx64x3wpsp4rn69f4w0000gn\/T\/ios_build_device\/template\/xcode_ust_template\/uni_modules\/tusen-t-view\/utssdk\/app-ios\/src\/index.swift",
-      "kind": "StringLiteral",
-      "offset": 199,
-      "length": 14,
-      "value": "\"点击触发\""
-    }
-  ]
+  "ConstValues": []
 }

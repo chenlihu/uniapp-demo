@@ -8,7 +8,10 @@
       "md5": "9fb190a4d4c020903bebc19e2f5da067"
     },
     "utssdk/app-ios/index.vue": {
-      "md5": "c619e31e41ea576515fdbd869a75171a"
+      "md5": "f1411af31962c828df10e10e8e75cea7"
+    },
+    "utssdk/app-ios/tusen3d.swift": {
+      "md5": "91152d86da5af65dd97ca43f78574218"
     }
   }
 }

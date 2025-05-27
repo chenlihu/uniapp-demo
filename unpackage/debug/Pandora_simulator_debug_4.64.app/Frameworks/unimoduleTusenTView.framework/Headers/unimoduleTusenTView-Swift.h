@@ -281,8 +281,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import DCloudUTSFoundation;
-@import ObjectiveC;
+@import CoreFoundation;
 @import UIKit;
 #endif
 
@@ -306,12 +305,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS_NAMED("ButtonClickListsner")
-@interface UTSSDKModulesTusenTViewButtonClickListsner : NSObject
-- (nonnull instancetype)init:(UTSComponent<UIButton *> * _Nonnull)component OBJC_DESIGNATED_INITIALIZER;
-- (void)buttonClickAction;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@class NSCoder;
+SWIFT_CLASS("_TtC19unimoduleTusenTView11Tusen3DView")
+@interface Tusen3DView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 @end
 
 #endif
