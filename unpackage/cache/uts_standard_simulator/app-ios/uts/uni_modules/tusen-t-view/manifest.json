@@ -11,7 +11,13 @@
       "md5": "f1411af31962c828df10e10e8e75cea7"
     },
     "utssdk/app-ios/tusen3d.swift": {
-      "md5": "91152d86da5af65dd97ca43f78574218"
+      "md5": "fcc3728ef47c6007b97f2e48961140c6"
+    },
+    "utssdk/app-ios/Bundle/male02.mtl": {
+      "md5": "fdd94a1e07fdde8de9f64468da0b0642"
+    },
+    "utssdk/app-ios/Bundle/male02.obj": {
+      "md5": "310586de426d900e1540d98f81ed2b81"
     }
   }
 }
